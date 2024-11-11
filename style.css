@@ -1,0 +1,78 @@
+body { 
+    margin: 10; 
+    padding: 10; 
+    box-sizing: border-box; 
+    background-color: #f2f2f2; 
+    font-family: 'Times New Roman', Times, serif; 
+} 
+.top p { 
+    text-align: center; 
+    font-size: 4vw; 
+    color: blue;
+}
+.top h1 { 
+    line-height: 0vw; 
+    text-align: center; 
+    font-size: 05.5vw; 
+    color: rgb(247, 160, 0);
+} 
+.top h2 { 
+    text-align: center; 
+    font-size: 5vw; 
+    line-height: 3vw; 
+    color: deeppink;
+} 
+.top table, tr, td { 
+    font-size: 3.5vw; 
+    border: 2px solid green; 
+    border-collapse: collapse; 
+    text-align: center; 
+    background-color: rgb(255, 217, 217); 
+} 
+.top table tr td a { 
+    text-decoration: none; 
+    color: green; 
+} 
+.top table tr td:hover { 
+    background-color: rgb(206, 206, 206); 
+    transition: ease-in; 
+}
+.top table tr td { 
+    width: 25%; 
+}
+.top table { 
+    width: 100%; 
+    justify-content: center; 
+    align-items: center; 
+} 
+.middile p { 
+    font-size: 5vw; 
+    color: rgb(93, 0, 168); 
+} 
+.bot { 
+    height: 20vw; 
+    width: 100%; 
+    background-color: #c7c7c7; 
+    position: sticky; 
+    bottom: 0; 
+    left: 0; 
+    right: 0; 
+} 
+.bot ul { 
+    list-style: none; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    padding: 0; 
+} 
+.bot ul li img { 
+    width: 5vw; 
+    padding: 0 5px; 
+    margin-top: 10px; 
+} 
+.bot p { 
+    text-align: center; 
+    font-size: 3vw; 
+    line-height: 0; 
+    bottom: 0; 
+} 
