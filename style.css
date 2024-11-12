@@ -1,8 +1,8 @@
 body { 
-    margin: 10; 
-    padding: 10; 
+    margin: 0; 
+    padding: 0; 
     box-sizing: border-box; 
-    background-color: #f2f2f2; 
+    background-color: rgb(252, 234, 201); 
     font-family: 'Times New Roman', Times, serif; 
 } 
 .top p { 
@@ -19,19 +19,19 @@ body {
 .top h2 { 
     text-align: center; 
     font-size: 5vw; 
-    line-height: 3vw; 
+    line-height: 5vw; 
     color: deeppink;
 } 
 .top table, tr, td { 
-    font-size: 3.5vw; 
-    border: 2px solid green; 
+    font-size: 4vw; 
+    border: 1px solid black; 
     border-collapse: collapse; 
     text-align: center; 
-    background-color: rgb(255, 217, 217); 
+    background-color: rgb(241, 241, 241); 
 } 
 .top table tr td a { 
     text-decoration: none; 
-    color: green; 
+    color: rgb(0, 153, 255); 
 } 
 .top table tr td:hover { 
     background-color: rgb(206, 206, 206); 
@@ -39,15 +39,17 @@ body {
 }
 .top table tr td { 
     width: 25%; 
-}
+    height: 30px; 
+} 
 .top table { 
     width: 100%; 
     justify-content: center; 
     align-items: center; 
+    margin-top: 20px; 
 } 
 .middile p { 
     font-size: 5vw; 
-    color: rgb(93, 0, 168); 
+    color: rgb(73, 0, 133); 
 } 
 .bot { 
     height: 20vw; 
